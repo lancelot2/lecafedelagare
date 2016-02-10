@@ -45,6 +45,6 @@
 <%= link_to 'Write a new review', new_restaurant_review_path(@restaurant) %>
 
 <ul> <% @restaurant.reviews.each do |review| %>
-  <li> <%= review.content %> </li>
+  <li> <%= review.content %> | Rating: <%= review.rating %> </li>
   <% end %>
 </ul>
