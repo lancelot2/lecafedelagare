@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
   resources :restaurants do
-    # member do
-    #     # end
-    # resources :reviews, only: [:new, :create]
+    member do
+      get "chef" => "restaurants#chef"
+    end
+    resources :reviews, only: [:new, :create]
   end
 
 
