@@ -15,7 +15,7 @@ restaurants_attributes = [
     description:  "Face au jardin, on découvre une salle lumineuse... et la cuisine d'Éric Frechon.",
     category:     "belgian",
     chef:         "Éric Frechon",
-    phone_number: 145533934,
+    phone_number: "01 45 53 39 34",
     stars:        3
   },
   {
@@ -24,7 +24,7 @@ restaurants_attributes = [
     description:  "Une valeur sûre que cette belle maison du 17e et les recettes de Jean-Christophe Rizet",
     category:     "italian",
     chef:         "Jean-Christophe Rizet",
-    phone_number: 145533934,
+    phone_number: "01 45 53 39 34",
     stars:        1
   },
   {
@@ -33,7 +33,7 @@ restaurants_attributes = [
     description:  "Oeil vif, geste sûr: impossible de distinguer, dans les créations de Frédéric Anton...",
     category:     "french",
     chef:         "Frédéric Anton",
-    phone_number: 145533934,
+    phone_number: "01 45 53 39 34",
     stars:        3
   }
 ]
